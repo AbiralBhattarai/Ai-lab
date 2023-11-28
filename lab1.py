@@ -1,7 +1,5 @@
-class Mybook:
-    def __init__(self,name,author,publish_date):
-        self.name = name
-        self.author = author
-        self.publish_date = publish_date
+def add_sum(a ,b):
+    return a+b
 
-book1 = Mybook('hero','abiral',2020)
+
+print(add_sum(1,5))
